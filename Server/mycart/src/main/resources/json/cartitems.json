@@ -1,0 +1,71 @@
+[{
+        "type": "number",
+        "key": "stock_item_id"
+    }, {
+        "type": "text",
+        "key": "name"
+    }, {
+        "type": "text",
+        "key": "order_by"
+    }, {
+        "type": "text",
+        "key": "pack_size"
+    }, {
+        "type": "text",
+        "key": "uom"
+    }, {
+        "type": "text",
+        "key": "category_name"
+    }, {
+        "type": "text",
+        "key": "image"
+    }, {
+        "type": "number",
+        "key": "quantity"
+    }, {
+        "type": "double",
+        "key": "price"
+    }, {
+        "type": "double",
+        "key": "discount_price"
+    }, {
+        "type": "boolean",
+        "key": "isdiscount"
+    }, {
+        "type": "date",
+        "key": "added_on"
+    }, {
+        "type": "text",
+        "key": "description"
+    }, {
+        "type": "number",
+        "key": "cart_item_id"
+    }
+    , {
+        "type": "number",
+        "key": "offer_id"
+    }
+    , {
+        "type": "text",
+        "key": "cat_image"
+    }, {
+        "type": "number",
+        "key": "seller_id"
+    }, {
+        "type": "number",
+        "key": "address_id"
+    }, {
+        "type": "text",
+        "key": "shop_name"
+    }, {
+        "type": "text",
+        "key": "shop_image"
+    }, {
+        "type": "double",
+        "key": "pack_qty"
+    }
+
+
+
+
+]

@@ -1,0 +1,130 @@
+[
+	{
+		"type": "number",
+		"key": "stock_item_id"
+	},
+	{
+		"type": "text",
+		"key": "user_type"
+	},
+	{
+		"type": "text",
+		"key": "code"
+	},
+	{
+		"type": "text",
+		"key": "name"
+	},
+	{
+		"type": "number",
+		"key": "category_id"
+	},
+	{
+		"type": "text",
+		"key": "category_name"
+	},
+	{
+		"type": "text",
+		"key": "order_by"
+	},
+	{
+		"type": "number",
+		"key": "sub_cat_id"
+	},
+	{
+		"type": "text",
+		"key": "sub_cat_name"
+	},
+	{
+		"type": "number",
+		"key": "brand_id"
+	},
+	{
+		"type": "text",
+		"key": "brand_name"
+	},
+	{
+		"type": "text",
+		"key": "description"
+	},
+	{
+		"type": "double",
+		"key": "pack_size"
+	},
+	{
+		"type": "text",
+		"key": "image"
+	},
+	{
+		"type": "text",
+		"key": "uom"
+	},
+	{
+		"type": "double",
+		"key": "price"
+	},
+	{
+		"type": "double",
+		"key": "discount_price"
+	},
+	{
+		"type": "boolean",
+		"key": "isdiscount"
+	},
+	{
+		"type": "number",
+		"key": "quantity"
+	},
+	{
+		"type": "number",
+		"key": "rating"
+	},
+	{
+		"type": "text",
+		"key": "inventory_status"
+	},
+	{
+		"type": "text",
+		"key": "statu"
+	},
+	{
+		"type": "text",
+		"key": "sync_status"
+	},
+	{
+		"type": "text",
+		"key": "shop_name"
+	},
+	{
+		"type": "number",
+		"key": "seller_id"
+	},
+	{
+		"type": "number",
+		"key": "dist"
+	},
+	{
+		"type": "text",
+		"key": "seller_image"
+	},
+	{
+		"type": "number",
+		"key": "rank"
+	},
+	{
+		"type": "double",
+		"key": "act_price"
+	},
+	{
+		"type": "array",
+		"key": "isincart"
+	},
+	{
+		"type": "number",
+		"key": "address_id"
+	},
+	{
+		"type": "packs",
+		"key": "multipack"
+	}
+]

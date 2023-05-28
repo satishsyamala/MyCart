@@ -1,0 +1,22 @@
+
+[{
+        "status": "Order Placed",
+        "date": "",
+        "icon": "order-placed",
+        "color": ""
+    }, {
+        "status": "Accepted",
+        "date": "",
+        "icon": "accepted",
+        "color": ""
+    }, {
+        "status": "Ready For Pickup",
+        "date": "",
+        "icon": "ready-for-pick",
+        "color": ""
+    },{
+        "status": "Delivered",
+        "date": "",
+        "icon": "delivered",
+        "color": ""
+    }]

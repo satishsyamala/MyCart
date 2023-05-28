@@ -1,0 +1,13 @@
+[{
+        "type": "text",
+        "label": "Category",
+        "required": true,
+        "key": "catName"
+    }, {
+        "type": "text",
+        "label": "Name",
+        "required": true,
+        "key": "name"
+    }
+
+]

@@ -1,0 +1,76 @@
+{
+  "name": "MyCart",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "chart.js": "^3.6.0",
+    "crypto-js": "^4.1.1",
+    "cryptr": "^6.0.2",
+    "google-maps-react": "^2.0.6",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1",
+    "popper.js": "^1.16.1",
+    "primeflex": "2.0.0",
+    "primeicons": "4.1.0",
+    "primereact": "^6.2.1",
+    "qrcode.react": "^1.0.1",
+    "quagga": "^0.12.1",
+    "react": "^17.0.1",
+    "react-barcode": "^1.4.0",
+    "react-barcode-reader": "0.0.2",
+    "react-bootstrap": "^1.6.0",
+    "react-chartjs-2": "^3.3.0",
+    "react-charts": "^2.0.0-beta.7",
+    "react-dom": "^17.0.1",
+    "react-geolocated": "^3.2.0",
+    "react-hook-form": "^7.9.0",
+    "react-hook-geolocation": "^1.0.9",
+    "react-indexed-db": "^1.0.12",
+    "react-native-svg": "^12.1.1",
+    "react-qr-code": "^2.0.2",
+    "react-qr-reader": "^2.2.1",
+    "react-qr-scanner": "^1.0.0-alpha.7",
+    "react-redux": "^7.2.4",
+    "react-router": "^5.2.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.1",
+    "react-signature-canvas": "^1.0.3",
+    "react-to-print": "^2.12.6",
+    "react-transition-group": "^4.4.1",
+    "react-video-js-player": "^1.1.1",
+    "react-webcam": "^5.0.1",
+    "react-webcam-barcode-scanner": "0.0.2-rc2",
+    "redux": "^4.1.0",
+    "sort-json-array": "^0.1.7",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

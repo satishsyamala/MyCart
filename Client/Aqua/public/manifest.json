@@ -1,0 +1,33 @@
+{
+  "short_name": "MyCart",
+  "name": "mycart",
+  "start_url": "http://192.168.29.243:3000",
+  "display": "fullscreen",
+  "theme_color": "#f0a912",
+  "background_color": "#f0a912",
+  "orientation": "portrait"  ,
+  "icons": [
+    {
+      "src": "favicon.icon",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },{
+      "src": "logo2.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "background_color": "#f0a912"
+    },
+    {
+      "src": "logo2.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "background_color": "#f0a912"
+    },
+    {
+      "src": "logo3.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "background_color": "#f0a912"
+    }
+  ]
+ }

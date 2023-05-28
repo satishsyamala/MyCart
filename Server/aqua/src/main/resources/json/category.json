@@ -1,0 +1,13 @@
+[{
+        "type": "text",
+        "label": "Name",
+        "required": true,
+        "key": "name"
+    },
+    {
+        "type": "text",
+        "label": "Order By",
+        "required": true,
+        "key": "orderBy"
+    }
+]

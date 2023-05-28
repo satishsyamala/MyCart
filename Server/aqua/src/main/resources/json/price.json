@@ -1,0 +1,15 @@
+[
+    {
+        "type": "text",
+        "label": "Item Code",
+        "required": true,
+        "key": "catName"
+    }
+    ,
+     {
+        "type": "double",
+        "label": "Price",
+        "required": true,
+        "key": "price"
+    }
+]

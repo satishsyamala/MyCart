@@ -1,0 +1,747 @@
+:root {
+  --blue: #4df1f1;
+  --white: #ffffff;
+  }
+
+
+.App {
+  text-align: center;
+ 
+}
+@media screen and (max-width: 767px) {
+  .App {
+    text-align: center;
+    
+  }
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 30px;
+}
+
+.App-header {
+  z-index: 10;
+  background-color:  var(--blue) !important;
+  height: 7%;
+  color:  var(--white);
+  padding:10px;
+}
+
+.App-header  .hearder{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.p-sidebar {
+  background: #ffffff;
+  color: #495057;
+  padding:0px !important;
+  border: 0 none;
+  box-shadow: 0px 11px 15px -7px rgb(0 0 0 / 20%), 0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%);
+}
+
+.menu_bar_headred
+{
+  background-color:  var(--blue) !important;
+  color:  var(--white);
+  height:  100px!important;
+  padding: 10px
+}
+
+.p-panelmenu .p-panelmenu-header > a {
+  padding: 1rem;
+   border: 1px solid #dee2e6!important;
+  color: #495057;
+   background: #ffffff!important;
+  font-weight: 600;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+.devie_header .p-inputtext{
+ 
+  height: 30px !important;
+  top: 5px !important;
+  width: 70% !important;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+  background-color:  var(--blue) !important;
+  color:  var(--white);
+
+}
+
+.footer-icons .pi {
+  font-size: 20px !important;
+  color: white;
+}
+
+.p-menubar .p-menubar-button{
+  background-color:  var(--blue) !important;
+  color:var(--white);
+}
+
+
+
+
+
+.header-top{
+  padding: 5px;
+}
+.header-left{
+  padding: 5px;
+  float: left;
+}
+.header-right{
+  padding-right: 20px;
+  float:right;
+  color: #dee2e6;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .contentinfo {
+  padding-top: 82px;
+}
+
+.contentinfo{
+
+  padding: 1%;
+  margin-top:0px;
+  overflow: auto;
+  width: 100%;
+}
+.contentinfo-left
+{
+  position: fixed;
+  padding-left: 1%;
+  padding-top: 2%;
+  margin-top:80px;
+  height: 100%;
+  width: 80%;
+  overflow: auto;
+  
+}
+
+ 
+
+
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+ 
+
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+ 
+
+
+.p-menuitem-text{
+ font-weight: bold;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+
+/* Set black background color, white text and some padding */
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 0px;
+  }
+  .row.content {height:auto;} 
+  
+}
+.searchBtn{
+  height: 40px;
+  margin-top: 10px;
+
+}
+.loginBtn
+{
+  background-color: green !important;
+}
+
+.logoutBtn
+{
+  height: 25px!important;
+  width: 25px!important;
+
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.inputtext{
+  width: 100%!important;
+  max-width: 310px!important;
+  height: 30px!important;
+  border: 1px solid rgb(13, 14, 13) !important;
+
+}
+.p-password .p-inputtext{
+  width: 100%!important;
+  max-width: 310px!important;
+  height: 28px!important;
+ 
+
+}
+.tableinputtext .p-inputtext
+{
+  width: 80px!important;
+  height: 30px!important;
+  text-align: right !important;
+
+}
+.numberColWith{
+ 
+  text-align: right !important;
+  
+}
+.number-col{
+  width: 100px;
+  text-align: right !important;
+  
+}
+.p-inputnumber {
+ width: 100%!important;
+  max-width: 310px!important;
+ 
+}
+
+.p-inputnumber .p-inputtext{
+  width: 100%!important;
+   max-width: 310px!important;
+   height: 30px!important;
+   border: 1px solid rgb(13, 14, 13) !important;
+   text-align: right !important;
+ }
+
+.p-dropdown {
+  width: 100%!important;
+  max-width: 310px!important;
+ 
+}
+
+.p-dropdown .p-inputtext{
+  width: 100%!important;
+  max-width: 310px!important;
+  height: 30px!important;
+  border: 1px solid rgb(13, 14, 13) !important;
+  padding-top: 0px !important;
+}
+
+.p-multiselect {
+  width: 100%!important;
+  max-width: 310px!important;
+ 
+}
+
+.p-multiselect .p-inputtext{
+  width: 100%!important;
+  max-width: 310px!important;
+  height: 30px!important;
+  border: 1px solid rgb(13, 14, 13) !important;
+  padding-top: 0px !important;
+}
+
+.tabledropdown .p-inputtext{
+  width: 80px!important;
+  height: 30px!important;
+  padding-top: 0px !important;
+}
+
+.dropdown .pi-chevron-down{
+  width: 36px!important;
+  height: 30px!important;
+  border: 2px solid rgb(13, 14, 13) !important;
+  padding: 4.5px;
+  } 
+
+  .inputtextarea{
+    width: 100%;
+    max-width: 310px;
+    border: 1px solid rgb(13, 14, 13) !important;
+  
+  }
+
+
+.dail{
+  margin: auto;
+  margin-top: 10%; 
+  color: white;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  background-image: url("images/header.jpg") !important;
+}
+.dail .p-inputtext{
+  width: 100%;
+  max-width: 310px;
+  height: 30px;
+}
+.dail label{
+  width: 250px!important;
+  font-size: 18px;
+  height: 30px;
+}
+
+.smallForm{
+  margin: auto;
+  width: 400px!important;
+  padding: 10px;
+  
+}
+
+
+
+.dail .p-button{
+  width: 110px!important;
+  
+}
+
+.register
+{
+  color: blue;
+  width: 100%;
+  text-align: right;
+  
+  cursor: grab;
+}
+.regDiv{
+  text-align: right !important;
+}
+.rigthCon
+{
+  float: right;
+}
+
+.dropdown-demo .p-dropdown {
+  width: 14rem;
+}
+
+.dropdown-demo .country-item-value img.flag {
+  width: 17px;
+}
+
+
+.product-image{
+  width: 100px;
+  height: 100px;
+}
+.tableBtn{
+  width: 40px !important;
+}
+.tableBtn .p-button{
+  width: 20px !important;
+  height: 20px !important;
+}
+.formDiv{
+  margin: 5%;
+}
+.table-btns {
+  width: 100%;
+ 
+}
+
+
+
+.table-btns .p-button
+{
+  margin: 8px !important;
+  width: 30px!important;
+  height: 30px!important;
+}
+
+.formbottons
+{
+ 
+  text-align: center;
+ 
+}
+.formbottons .p-button
+{
+  margin: 5px !important;
+  width: 120px;
+  height: 35px;
+  
+}
+
+.rowbuttons
+{
+  width: 150px;
+  text-align: center;
+  padding-top: 15px;
+}
+.rowbuttons .p-button
+{
+  margin: 5px !important;
+  width: 140px;
+  height: 35px;
+}
+
+.dynaImage
+{
+  width: 250px;
+  height: 220px;
+}
+
+.remove_Image_Bt
+{
+  width: 30px!important;
+  height: 30px!important;
+}
+.p-fileupload .p-button
+{
+  width: 100%;
+  max-width: 310px;
+  height: 30px;
+}
+
+.p-menubar-button
+{
+  width: 40px!important;
+  height: 40px!important;
+  background-color: rgb(243, 247, 245) !important;
+}
+
+.App-header .pi {
+  font-size: 24px !important;
+  color: white;
+}
+
+ .p-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%,-50%)!important;
+  transform-origin: 50% 0;
+  margin: 0;
+  z-index: 100 !important;
+}
+
+
+
+.leftBt .p-button{
+  width: 40px!important;
+  height: 40px!important;
+}
+
+  .register_dl{
+     max-width: 380px;
+  }
+
+  label{
+    margin-top: 10px;
+    height: 18px!important;
+  }
+  .DTtable thead {
+    color: white !important;
+    font-size: 12px;
+    height: 10px!important;
+    background-image: url("images/header.jpg") !important;
+    }
+
+  .DTtable th {
+  color: white !important;
+  font-size: 14px;
+  font-style: normal;
+  height: 10px!important;
+  background-image: url("images/header.jpg") !important;
+  }
+
+  .DTtable td {
+    background-color: white !important;
+    font-size: 14px;
+    height: 10px!important;
+
+    }
+ .p-autocomplete
+  {
+    
+    width: 100% !important;
+    height: 30px !important;
+    max-width: 310px !important;
+    border: 1px solid rgb(13, 14, 13) !important;
+   }
+   .p-autocomplete .p-inputtext
+  {
+    
+    width: 100% !important;
+    height: 30px !important;
+    max-width: 310px !important;
+    border: 1px solid rgb(13, 14, 13) !important;
+   }
+   .errormasg{
+     font-size: 12px;
+     font-weight: 600;
+     color: red;
+   }
+
+   .cart-icon {
+    background: url('images/wcart30.png');
+    height: 30px;
+    width: 30px;
+    display: block;
+    /* Other styles here */
+}
+
+.user-icon {
+  background: url('images/user_b25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+  /* Other styles here */
+}
+
+.search-icon {
+  background: url('images/search_b25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+  /* Other styles here */
+}
+.home-icon {
+  background: url('images/home25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+  /* Other styles here */
+}
+
+.category-icon {
+  background: url('images/cat25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+  /* Other styles here */
+}
+
+.offer-icon {
+  background: url('images/offer25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+  /* Other styles here */
+}
+
+.cart-b-icon {
+  background: url('images/cart_b25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+  /* Other styles here */
+}
+
+.order-icon {
+  background: url('images/order25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+  /* Other styles here */
+}
+
+.settings-icon {
+  background: url('images/settings25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+  /* Other styles here */
+}
+
+.stock-icon {
+  background: url('images/stock_item25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+  /* Other styles here */
+}
+
+.chart-icon {
+  background: url('images/chart25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+  /* Other styles here */
+}
+
+.price-icon {
+  background: url('images/price25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+  /* Other styles here */
+}
+
+.admin-user-icon {
+  background: url('images/admin_user25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+  /* Other styles here */
+}
+
+.seller-user-icon {
+  background: url('images/seller_user25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+  /* Other styles here */
+}
+
+.cunsumer-icon {
+  background: url('images/consumer25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+  /* Other styles here */
+}
+
+.multi-users-icon {
+  background: url('images/multi_users25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+  /* Other styles here */
+}
+
+.reports-icon {
+  background: url('images/reports25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+  /* Other styles here */
+}
+
+.import-icon {
+  background: url('images/import25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+  /* Other styles here */
+}
+
+.cate-icon {
+  background: url('images/category25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+  /* Other styles here */
+}
+
+.code-scanner{
+  background: url('images/qr25.png');
+  height: 25px;
+  width: 25px;
+  display: block;
+}
+.sub90x25{
+  background: url('images/sub90X25.png');
+  height: 30px;
+  width: 100px;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search-text{
+  border-bottom: 0.1px ridge rgb(128, 126, 126);
+}
+
+.qr-sccaner-win{
+  width: 100%;
+  max-width: 360px;
+}
+
+  
+ 
+.p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
+  background: #ff3c4c !important;
+}
+.p-inputswitch .p-inputswitch-slider {
+  background: #111111;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  border-radius: 20px !important; 
+}
+.p-inputswitch-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 5;
+  bottom: 0;
+  margin-top: 5px;
+ 
+  width: 45px;
+  height: 22px;
+}
+
+.headerName{
+  font-weight: 600;
+  font-size: 22px;
+  color: #fdfcfc;
+}
+
+
+
+
+

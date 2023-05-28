@@ -1,0 +1,151 @@
+.card{
+   padding: 0px !important;
+    margin: 5px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.card-body{
+   width: 100% !important;
+   position: relative;
+}
+
+
+.card-font{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -10px!important;
+   
+}
+
+@media only screen and (max-width: 1300px) {
+    .card-font{
+        font-size: 34px;
+        font-weight: 600;
+       
+    }
+  }
+
+.div1{
+    background: cadetblue !important;
+   
+}
+.div2{
+    background: rgb(223, 240, 149) !important;
+   }
+.div3{
+    background: rgb(174, 248, 140) !important;
+   
+}
+.div4{
+    background: rgb(245, 148, 172) !important;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .table{
+        font-size: 12px;
+    }
+  }
+
+  .overlaypanel-demo  {
+    width: 150px;
+}
+
+.overlaypanel-demo .product-image {
+    width: 50px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.p-datatable table {
+    border-collapse: collapse;
+    width:100%; 
+    table-layout: inherit;
+  
+}
+.p-datatable header{
+    font-size: 12px !important;  
+    height: 20px!important;    
+}
+.p-datatable th{
+    font-size: 12px !important;  
+    height: 20px!important;    
+}.p-datatable td{
+    font-size: 14px !important;  
+    height: 20px!important;  
+    font-weight: 600;  
+}
+
+.row {
+    display: flex; 
+    flex-wrap: wrap;
+    margin-right: -15px; 
+    margin-left: -15px;
+}
+
+.table-dash{
+    overflow: auto;
+    border: 1.5px solid black;
+   height: 460px;
+}
+
+@media (min-width: 750px){
+.col-sm {
+    flex-basis: 0!important;  
+    flex-grow: 1!important;  
+    max-width: 100%!important;      
+}
+}
+
+ .row-accessories td {
+    background-color: rgb(5, 104, 38) !important;
+    color: #fff;
+    font-size: 14px!important;
+    font-weight: 600!important;
+}
+
+ .overview-box {
+    box-shadow: 0 3px 8px 0 rgb(0 0 0 / 30%);
+    padding: 15px;
+    position: relative;
+    min-height: 100px;
+    overflow: hidden;
+    
+}
+
+ .overview-box img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+ .overview-box .overview-value {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+ .overview-box.overview-box-1 {
+    background-image: linear-gradient(to bottom, #39a3f4 1%, #279cf5 99%);
+}
+
+.overview-box.overview-box-2 {
+    background-image: linear-gradient(to bottom, #76be45, #66b92d);
+}
+
+.table-filter-btn
+{
+    width: 30px!important;
+    height: 30px!important;
+}
+
+
+

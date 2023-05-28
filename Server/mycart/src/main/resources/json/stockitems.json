@@ -1,0 +1,93 @@
+[
+    {
+        "type": "text",
+        "label": "Category",
+        "required": true,
+        "key": "catName"
+    },
+    {
+        "type": "text",
+        "label": "Sub Category",
+        "required": true,
+        "key": "subCatName"
+    },
+    {
+        "type": "text",
+        "label": "Brand",
+        "required": false,
+        "key": "brandName"
+    },
+    {
+        "type": "text",
+        "label": "code",
+        "required": true,
+        "key": "code"    
+    },
+    {
+        "type": "text",
+        "label": "Description",
+        "required": true,
+        "key": "description"
+    },
+    {
+        "type": "text",
+        "label": "Name",
+        "required": true,
+        "key": "name"
+    },
+    {
+        "type": "text",
+        "label": "Uom",
+        "required": true,
+        "key": "uom"
+    },
+    {
+        "type": "text",
+        "label": "Pack Size 1",
+        "required": true,
+        "key": "packSize1"
+    },
+    {
+        "type": "double",
+        "label": "Price 1",
+        "required": true,
+        "key": "price1"
+    },
+    {
+        "type": "text",
+        "label": "Pack Size 2",
+        "required": false,
+        "key": "packSize2"
+    },
+    {
+        "type": "double",
+        "label": "Price 2",
+        "required": false,
+        "key": "price2"
+    },
+    {
+        "type": "text",
+        "label": "Pack Size 3",
+        "required": false,
+        "key": "packSize3"
+    },
+    {
+        "type": "double",
+        "label": "Price 3",
+        "required": false,
+        "key": "price3"
+    },
+    {
+        "type": "text",
+        "label": "Pack Size 4",
+        "required": false,
+        "key": "packSize4"
+    },
+    {
+        "type": "double",
+        "label": "Price 4",
+        "required": false,
+        "key": "price4"
+    }
+]
+

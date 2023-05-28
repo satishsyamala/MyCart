@@ -1,0 +1,56 @@
+{
+    "categoryId": {
+        "type": "number",
+        "label": "Category",
+        "required": true
+    },
+    "subCategoryId": {
+        "type": "number",
+        "label": "Sub Category",
+        "required": true
+        
+    },
+    "brandId": {
+        "type": "number",
+        "label": "Brand",
+        "required": false
+    },
+    "code": {
+        "type": "text",
+        "label": "code",
+        "required": true
+        
+    },
+    "name": {
+        "type": "text",
+        "label": "Name",
+        "required": true
+        
+    },
+    "uom": {
+        "type": "text",
+        "label": "Uom",
+        "required": true
+    },
+    "price": {
+        "type": "number",
+        "label": "Price",
+        "required": true
+    },
+    "packSize": {
+        "type": "number",
+        "label": "pack Size",
+        "required": true
+    },
+    "description": {
+        "type": "textarea",
+        "label": "Description",
+        "required": true
+    },
+    "image": {
+        "type": "fileUpload",
+        "label": "Image",
+        "required": false
+    }
+}
+

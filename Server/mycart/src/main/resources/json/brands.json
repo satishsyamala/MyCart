@@ -1,0 +1,20 @@
+[
+    {
+        "type": "text",
+        "label": "Category",
+        "required": true,
+        "key": "catName"
+    }
+    ,
+    {
+        "type": "text",
+        "label": "Sub Category",
+        "required": true,
+        "key": "subCatName"
+    }, {
+        "type": "text",
+        "label": "Name",
+        "required": true,
+        "key": "name"
+    }
+]
