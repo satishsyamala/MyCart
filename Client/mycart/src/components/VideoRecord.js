@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import VideoRecorder from 'react-video-recorder'
-import ReactPlayer from 'react-player'
 import APP_URL from "../service/APIConfig"
 import APIService from "../service/APIService"
 import VideoPlayer from 'react-video-js-player';
